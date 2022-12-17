@@ -3,5 +3,7 @@ version: '2'
 services:
   app:
     image: nginx:latest
+    volumes:
+      - /var/www/html:/app/:rw
     ports:
       - 80:80
