@@ -4,6 +4,6 @@ services:
   app:
     image: nginx:latest
     volumes:
-      - /app/:/var/www/html:rw
+      - app/:/var/www/html:rw
     ports:
       - 80:80
