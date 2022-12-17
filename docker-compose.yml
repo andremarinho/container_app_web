@@ -2,6 +2,6 @@ version: '2'
 
 services:
   apache:
-    image: 'bitnami/apache:latest'
+    image: 'nginx:latest'
     ports:
-      - '80:80'
+      - '80'
