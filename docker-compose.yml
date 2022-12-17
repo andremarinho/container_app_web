@@ -1,7 +1,7 @@
-version: '2'
+version: 1
 
 services:
-  apache:
-    image: 'nginx:latest'
+  app:
+    image: nginx:latest
     ports:
-      - 80
+      - 80:80
