@@ -4,4 +4,4 @@ services:
   apache:
     image: 'nginx:latest'
     ports:
-      - '80'
+      - 80
